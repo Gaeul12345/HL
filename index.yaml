@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  myapp:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-09-25T08:36:24.005496736Z"
+    description: test app
+    digest: 4e0f30f43b88023315f674008a93af5b234099043e046b7948b9ed2d4e593be1
+    name: myapp
+    urls:
+    - https://Gaeul12345.github.io/HL/myapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-09-25T08:36:24.004955582Z"
