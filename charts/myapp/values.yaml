@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+# Default values for custom-application.
+# This is where you can set customizable values.
+
+replicaCount: 2
+
+wasImage:
+  repository: "ekchoi3912/cicdlab_1"
+  tag: v1
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+# ingress:
+#   enabled: true
+#   annotations: {}
+#   hosts:
+#     - host: www.frodo.kr
+#       paths: []
+#   tls: []
+
+=======
+replicasCount: 1
+
+wasImage:
+  repository: "Gaeul12345/helm-test-repo"
+  tag: v1
+>>>>>>> 666239c65ab05f454005a4b916ad78ba1e1e7ab8
